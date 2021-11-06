@@ -6,15 +6,11 @@
 
 to run this at startup create a bash scipt containing :
 
-#bin/bash
-
-sudo modprobe -r usbhid && sudo modprobe -r psmouse
-
-sudo modprobe usbhid && sudo modprobe psmouse
-
-echo "mouse is reset "
-
-echo "task end"
+    #bin/bash
+    sudo modprobe -r usbhid && sudo modprobe -r psmouse
+    sudo modprobe usbhid && sudo modprobe psmouse
+    echo "mouse is reset "
+    echo "task end"
 
 to any directory and save as filename.sh
 
